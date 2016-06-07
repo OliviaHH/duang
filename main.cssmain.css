@@ -1,0 +1,245 @@
+body {
+  background: #f7f7f7;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#wraper {
+  margin: 0 auto;
+  position: relative;
+}
+#header {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  line-height: 80px;
+}
+#header .icon {
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+#header .icon img {
+  float: left;
+  width: 60px;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+span {
+  position: relative;
+  left: 10px;
+  /*font-size: 15px;*/
+  font-size: 1.5em;
+  color: #403f3e;
+  vertical-align: middle;
+}
+#header .downloadBtn {
+  /*font-size: 12px;*/
+  font-size: 1.2em;
+  line-height: 30px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #f9c614;
+}
+#mainbody {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+#mainbody .bg-img {
+  position: absolute;
+  background: url("../../images/10184-20160331.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.middle {
+  position: relative;
+}
+.middle .desc {
+  width: 80%;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+}
+.middle .desc .first {
+  float: left;
+  margin-left: 30px;
+}
+.middle .desc .last {
+  float: right;
+  margin-right: 10px;
+}
+.middle .desc .title {
+  /*font-size: 12px;*/
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4px;
+}
+.middle .desc .times {
+  /*font-size: 15px;*/
+  font-size: 1.5em;
+  color: white;
+}
+.middle .middleicon {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  top: 50px;
+  left: 50px;
+}
+.middle .middleicon img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 20%;
+  right: 10%;
+}
+#mainbody .introduce {
+  position: absolute;
+  z-index: 1;
+  left: 40px;
+  right: 10px;
+  top: 350px;
+}
+#mainbody .introduce h1 {
+  /*font-size: 13px;*/
+  font-size: 1.3em;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-bottom: 13px;
+  padding-bottom: 13px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.6);
+}
+#mainbody .introduce #intro {
+  line-height: 1.5;
+  overflow: hidden;
+  word-break: break-all;
+  color: rgba(255, 255, 255, 0.6);
+  /*font-size: 11px;*/
+  font-size: 1.1em;
+}
+#midbody {
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+#midbody h2 {
+  /*font-size: 14px;*/
+  font-size: 1.4em;
+  color: #242526;
+}
+#midbody li {
+  padding: 10px 20px;
+  border-bottom: 0.1px solid #e9e9e9;
+  height: 80px;
+}
+#midbody h2 {
+  padding: 10px 20px;
+  border-bottom: 0.1px solid #e9e9e9;
+}
+#midbody .traingdetail div {
+  float: left;
+}
+#midbody .round {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#midbody .round img {
+  width: 100%;
+  height: auto;
+}
+#midbody h3 {
+  /*font-size: 15px;*/
+  font-size: 1.5em;
+  color: #403f3e;
+  margin-bottom: 5px;
+}
+#midbody .seconds {
+  color: #f9c614;
+  /*font-size: 12px;*/
+  font-size: 1.2em;
+}
+#midbody .morebtn {
+  text-align: center;
+  /*font-size: 12px;*/
+  font-size: 1.2em;
+  color: #acaeae;
+  padding: 28px;
+}
+#footer {
+  position: absolute;
+  width: 100%;
+}
+#footer img {
+  width: 100%;
+}
+#bg {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  background: #000000;
+  display: none;
+  z-index: 1000;
+}
+#popbox {
+  position: absolute;
+  width: 276px;
+  height: 137px;
+  left: 50%;
+  top: 30%;
+  margin: -198px 0 0 -143px;
+  display: none;
+  background: rgba(244, 244, 244, 0.9);
+  border-radius: 15px;
+  z-index: 1500;
+  text-align: center;
+}
+.alter {
+  color: blue;
+}
+#altertitle {
+  position: absolute;
+  color: black;
+  left: 0px;
+  border-bottom: 0.5px solid #acaeae;
+  width: 100%;
+  line-height: 7;
+}
+#yes {
+  float: left;
+  margin-left: 58px;
+  margin-top: 93px;
+  border-right: 0.5px solid #acaeae;
+  height: 27%;
+  padding-right: 50px;
+}
+#no {
+  float: right;
+  margin-right: 61px;
+  margin-top: 94px;
+}
+/*# sourceMappingURL=main.cssmain.less.map */

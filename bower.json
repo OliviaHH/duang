@@ -1,0 +1,20 @@
+{
+  "name": "css",
+  "authors": [
+    "荣玉影 <rongyuying@rongyuyingdeMacBook-Pro.local>"
+  ],
+  "description": "a DUANG duang",
+  "main": "FitPage1.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
